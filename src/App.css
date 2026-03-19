@@ -50,10 +50,50 @@ nav {
   margin-left: 40px;
 }
 
-.home-img {
+.home-img-div {
+  height: 200px;
+  position: relative;
 }
 
-.home-img img {
+.home-img-div > * {
+  position: absolute;
+  height: 100%;
+}
+
+.home-img-row-1 > :nth-child(-n + 3) {
   height: 200px;
-  width: 300px;
+  width: 250px;
+  border-radius: 60% 0;
+  height: 200px;
+  width: 250px;
+}
+
+.home-img-row-1 img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.home-img-row-2 div:nth-child(n + 2) {
+  right: 0;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.home-img-row-2 img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.home-img-row-3 img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.home-img-row-3 > :nth-child(n + 2):nth-child(-n + 3) {
+  height: 200px;
+  width: 70px;
 }
