@@ -20,7 +20,7 @@ const Navbar = () => {
                             onClick={() => { if (menuOpen) { setMenuOpen(false) } else { setMenuOpen(true) } }}
                             className="md:hidden"
                         ><img src={closeIcon} alt="close" className="h-[20px] w-[20px]" /></button>
-                        <button className="hover:text-green-700">Services</button>
+                        <a href="#services"><button className="hover:text-green-700">Services</button></a>
                         <button className="hover:text-green-700">About</button>
                         <button className="hover:text-green-700">FAQ</button>
                     </div>

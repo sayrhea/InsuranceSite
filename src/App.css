@@ -97,3 +97,19 @@ nav {
   height: 200px;
   width: 70px;
 }
+
+#services {
+  background: rgb(13, 37, 13);
+  color: azure;
+}
+
+.white-line {
+  border: none;
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.service-list-item {
+  height: 200px;
+}

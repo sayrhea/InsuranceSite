@@ -47,14 +47,14 @@ const Home = () => {
             >
                 <div className="home-img-div home-img-row-1 flex cursor-pointer">
                     <div className="bg-green-900"></div>
-                    <div className="bg-blue-900 z-49 row1-left-div"></div>
+                    <div className="bg-gray-400 z-49 row1-left-div"></div>
                     <div className="overflow-hidden z-50 home-img1-wrapper">
                         <img src="/home-img1.avif" alt="woman" className="home-img1" />
                     </div>
                     <div className="row1-right-div bg-blue-100 rounded-tl-[0] rounded-br-[0] rounded-tr-[0] rounded-bl-[40%] right-[0] h-[200px] w-[350px]"></div>
 
                 </div>
-                <div className="home-img-div home-img-row-2  cursor-pointer">
+                <div className="home-img-div home-img-row-2 cursor-pointer">
                     <div className="bg-green-900 w-[400px] rounded-tl-[0] rounded-br-[100px] rounded-tr-[100px] rounded-bl-[0]"></div>
                     <div className="bg-blue-100 rounded-[50%]"></div>
                     <div className="row2-right-div bg-gray-400 rounded-[50%] z-49"></div>
