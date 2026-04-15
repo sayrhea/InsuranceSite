@@ -11,6 +11,7 @@
 body {
   background: rgba(220, 225, 193, 0.452);
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
 
 nav {
@@ -110,6 +111,95 @@ nav {
   width: 100%;
 }
 
-/* .service-list-item {
+#about {
+  background: rgb(13, 37, 13);
+  color: azure;
+  padding-top: 100px;
+  height: 2000px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.about-body {
+  z-index: 50;
+  width: 25%;
+  position: relative;
+  left: 35%;
+  top: 0;
+}
+
+.about-img-section {
+  width: 25%;
+  position: sticky;
+  /* z-index: 50; */
+  /* bottom: 0; */
+  left: 70%;
+  width: 400px;
+  height: 600px;
+}
+
+.about-img-section-1 > :nth-child(1) {
   height: 200px;
-} */
+  width: 200px;
+  background: white;
+  border-radius: 50% 50% 0 50%;
+}
+
+.about-img-section-1 > :nth-child(2) {
+  height: 200px;
+  width: 200px;
+  background: rgb(92, 147, 92);
+  border-radius: 0 50% 0 0;
+}
+
+.about-img-section-2 > :nth-child(1) {
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 50% 0 50% 50%;
+}
+
+.about-img-section-2 > :nth-child(2) {
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 0 50% 50% 50%;
+}
+
+.about-img-section-3 > :nth-child(1) {
+  height: 200px;
+  width: 200px;
+  background: #dbeafe;
+  border-radius: 0 0 0 50%;
+}
+
+.about-img-section-3 > :nth-child(2) {
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 0 50% 50% 50%;
+}
+
+.approach-body {
+  color: white;
+  background: #102119;
+  border-radius: 0 100px 0 0;
+  position: absolute;
+  z-index: 40;
+  top: 48%;
+  right: 0;
+  width: 95%;
+  height: 500px;
+}
+
+.testimonial-img-wrap {
+  height: 400px;
+  width: 400px;
+  border-radius: 80px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-img-wrap:hover {
+  transform: scale(1.1);
+}

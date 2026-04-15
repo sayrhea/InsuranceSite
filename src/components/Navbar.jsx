@@ -5,8 +5,10 @@ import closeIcon from "/close.png";
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <header className="bg-[#f5f5f5] [box-shadow:0_4px_4px_0_#eee0e080] border-[1px] border-[solid] border-[#eee0e080] md:mx-20 mx-4 my-8 rounded-[30px] h-[70px] lg:pt-[10px]">
-            <nav className="flex justify-between items-center w-[92%] mx-auto">
+        <header
+            className="bg-[#f5f5f5] [box-shadow:0_4px_4px_0_#eee0e080] border-[1px] border-[solid] 
+            border-[#eee0e080] md:mx-20 mx-4 my-8 rounded-[30px] h-[70px] lg:pt-[10px] fixed z-50 w-[92%] top-0">
+            <nav className="flex justify-between items-center mx-auto">
                 <div className="flex items-center gap-2">
                     <div className="logo">
                         <img src="/logo.png" alt="logo" className="logo-img" />
@@ -21,7 +23,7 @@ const Navbar = () => {
                             className="md:hidden"
                         ><img src={closeIcon} alt="close" className="h-[20px] w-[20px]" /></button>
                         <a href="#services"><button className="hover:text-green-700">Services</button></a>
-                        <button className="hover:text-green-700">About</button>
+                        <a href="#about"><button className="hover:text-green-700">About</button></a>
                         <button className="hover:text-green-700">FAQ</button>
                     </div>
 
